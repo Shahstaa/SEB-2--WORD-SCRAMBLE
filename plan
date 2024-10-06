@@ -1,0 +1,50 @@
+1-	PLAN YOUR PROJECT!
+
+-	Game idea:   Word Scramble
+-	User stories:
+1.	As a player, I want to see a scrambled word so that I can guess what it is.
+2.	As a player, I want to input my guess and submit it.
+3.	As a player, I want to receive feedback indicating whether my guess is correct or incorrect.
+4.	As a player, I want to see how many attempts I have left.
+
+-	Wire frame (UI drawing/plan):
+
+
+               WORD SCRAMBLE GAME
+
+
+                      Scrambled Words:
+               [ _ ] [ _ ] [ _ ] [ _ ] [ _ ] [ _ ] 
+
+            Your Guess: _ _ [ submit guess] _ _
+
+
+                  Attempts Left: [  0  ]
+
+              [ CORRECT / INCORRECT MESSAGE]!
+
+
+
+
+-	Pseudo Code (logical plan in plain language not code) 
+
+1.	First: Create a list of words that can be used in the game - Prepare three categories of words: easy, medium, and hard. Each category will contain different words appropriate for the difficulty level.
+
+2.	The number of attempts: 
+Define the number of attempts available for each level:
+Easy: 5 attempts
+Medium: 3 attempts
+Hard: 2 attempts 
+
+3.	Show the player the scrambled word on the screen: Randomly select a word from the chosen level’s list and scramble it (mix up the letters). Display the scrambled word to the player.
+
+4.	Prompt the player to enter their guess.
+	- If the player’s guess matches the original word:
+	   Display a message saying "Correct!" and end the game.
+	- If the player’s guess does not match:
+	   Decrease the number of attempts by 1.
+	   Display a message saying "Incorrect!" and show the number of attempts left.
+	- If the player runs out of attempts:
+	   Display a message saying "Game Over!" and reveal the correct word.
+
+5.	After the game ends, offer the player an option to restart the game.
