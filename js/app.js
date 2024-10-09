@@ -90,23 +90,22 @@ function startGame() {
     guessInput.value = '';
 }
 function submitGuess() {
-    const guess = guessInput.value.toLowerCase();
+    const guess = document.getElementById('guess').value.toLowerCase();
     if (guess === selectedWord) {
-        messageElement.innerText = 'Correct! You have completed the ' + currentLevel + ' level.';
-        restartButton.classList.remove('hidden');
-        // TEST
-        startGame()
+        document.getElementById('message').innerText = 'Correct! You have completed the ' + currentLevel + ' level.';
+        document.getElementById('restart').classList.remove('hidden');
     } else {
         attempts--;
-        attemptsLeftElement.innerText = attempts;
-        messageElement.innerText = 'Incorrect!';
+        document.getElementById('attempts-left').innerText = attempts;
+        document.getElementById('message').innerText = 'Incorrect!';
         
         if (attempts === 0) {
-            messageElement.innerText = `Game Over! The correct word was "${selectedWord}".`;
-            restartButton.classList.remove('hidden');
+            document.getElementById('message').innerText = `Game Over! The correct word was "${selectedWord}".`;
+            document.getElementById('restart').classList.remove('hidden');
         }
     }
-    guessInput.value = '';
+    document.getElementById('guess').value = '';
+
 }
 
 function changeLevel(level) {
