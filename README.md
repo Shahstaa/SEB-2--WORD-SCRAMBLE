@@ -10,7 +10,8 @@ WORD SCRAMBLE GAME
 Word Scramble Game challenges players to guess a scrambled word within a limited number of attempts. Choose from Easy, Medium, or Hard levels to test the vocabulary skills.
 
 ## Getting Started
-•	Deployed Game: Play the Game
+•	Deployed Game: 
+- Play the Game
 •	Instructions:
 - Select a difficulty level.
 - Guess the word by clicking letters or typing your guess.
@@ -33,6 +34,28 @@ Word Scramble Game challenges players to guess a scrambled word within a limited
 •	HTML
 •	CSS
 •	JavaScript
+
+## Functions
+1. ScrambleWord:
+ Randomly mix words.
+
+2. displayScrambledButton: 
+Displays letters of the mixed word as buttons.
+
+3. pickRandomWord: 
+Selects a random word from the current level.
+
+4. StartGame: 
+Initializes game state and displays mixed words.
+
+5. SubmitGuess: 
+Checks the player's guess, updates attempts, and displays a message.
+
+6. ChangeLevel: 
+Changes the difficulty level and restarts the game.
+
+7. Event Listeners: 
+Listens for level changes, guess submissions, and restarts.
 
 ##  Next Steps - Future Enhancement
 •	Add more words to levels.
