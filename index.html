@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word Scramble</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Word Scramble Game</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./js/app.js"defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>WORD SCRAMBLE GAME</h1>
+        <div class="level-selection">
+            <h2>Select Level:</h2>
+            <button id="easy">Easy</button>
+            <button id="medium">Medium</button>
+            <button id="hard">Hard</button>
+        </div>
+
+        <div class="scrambled-word">
+            <h2>Scrambled Letters:</h2>
+            <div id="scrambled" class="button-container"></div>
+        </div>
+        
+        <div class="guess-section">
+            <h2>Your Guess:</h2>
+            <input type="text" id="guess"/>
+            <button id="submit">Submit Guess</button>
+        </div>
+        
+        <div class="attempts">
+            <h2>Attempts Left: <span id="attempts-left">3</span></h2>
+        </div>
+        
+        <div id="message" class="message"></div>
+        <button id="restart" class="hidden">Restart Game</button>
+    </div>
 </body>
 </html>

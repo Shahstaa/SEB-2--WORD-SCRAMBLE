@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rowdies:wght@300;400;700&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Londrina+Sketch&family=Rowdies:wght@300;400;700&family=Silkscreen:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    min-height: 100vh;
+    background-image: url(/SEB-2--WORD-SCRAMBLE/assets/freepik-ww\ copy.jpeg);
+    background-size: cover; 
+    background-position: center; 
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.container {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(254, 253, 254, 0.819);}
+
+h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 95px;
+    color: rgb(250, 116, 76);
+    height: 50px;
+}
+h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    color: brown;
+}
+.hidden {
+    display: none;
+}
+.message {
+    font-family: "Silkscreen", sans-serif;
+    margin: 20px;
+    font-size: 1.5em;
+    color: black;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+button.letter-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Rowdies", sans-serif; 
+    background-color:rgb(250, 116, 76);
+    border-color: rgb(250, 116, 76);
+    color: black;
+}
+button{
+    margin: 2px;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-family: "Rowdies", sans-serif;
+    background-color: rgb(255, 231, 243);
+    border-color: rgb(255, 231, 243);
+    box-shadow: 0 0 5px rgb(250, 116, 76); 
+}
+input{
+    margin: 5px;
+    padding: 13px 10px;
+}
+@media (max-width: 480px) {
+    body {
+        background-image: url(/SEB-2--WORD-SCRAMBLE/assets/freepic\ copy.png);
+    }
+    h1 {
+        height: 188px;
+        font-size: 55px; 
+        padding: 20px 20px 5px 5px;
+    }
+    h2 {
+        font-size: 20px; 
+    }
+    .container {
+        text-align: center;
+        padding: 80px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(254, 253, 254, 0.819);
+    }
+    button.letter-button, button {
+        font-size: 20px; 
+        padding: 5px 5px; 
+    }
+    .message {
+        margin: 10px;
+        font-size: 0.9em; 
+    }
+}
+
+@media (max-width: 768px) {
+    
+    h1 {
+        height: 188px;
+        font-size: 60px; 
+        padding: 20px 20px 5px 5px;
+    }
+    h2 {
+        font-size: 20px; 
+    }
+    .container {
+        text-align: center;
+        padding: 80px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(254, 253, 254, 0.819);
+    }
+    button.letter-button, button {
+        font-size: 20px; 
+        padding: 5px 5px; 
+    }
+    .message {
+        margin: 10px;
+        font-size: 0.9em; 
+    }
+}
+
+
+
+
