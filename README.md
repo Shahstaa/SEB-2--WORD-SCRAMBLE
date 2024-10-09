@@ -32,9 +32,9 @@ Word Scramble Game challenges players to guess a scrambled word within a limited
 1. https://www.freepik.com/free-photo/top-view-alphabet-letters-frame_10703217.htm#fromView=image_search_similar&page=1&position=0&uuid=cadf2932-5ae6-45dc-9fbc-1da716b1015f
 
 ## Technologies Used
-•	HTML
-•	CSS
-•	JavaScript
+1. HTML
+2. CSS
+3. JavaScript
 
 ## Functions
 1. ScrambleWord:
