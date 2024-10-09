@@ -10,9 +10,10 @@ WORD SCRAMBLE GAME
 Word Scramble Game challenges players to guess a scrambled word within a limited number of attempts. Choose from Easy, Medium, or Hard levels to test the vocabulary skills.
 
 ## Getting Started
-•	Deployed Game: 
-- Play the Game
-•	Instructions:
+
+1. Deployed Game: 
+- Start/Play the Game
+2. Instructions:
 - Select a difficulty level.
 - Guess the word by clicking letters or typing your guess.
 - Submit your guess and see if you’re correct!
