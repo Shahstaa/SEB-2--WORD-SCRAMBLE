@@ -36,7 +36,7 @@ Word Scramble Game challenges players to guess a scrambled word within a limited
 2. CSS
 3. JavaScript
 
-## Functions
+## The Program
 1. ScrambleWord:
  Randomly mix words.
 
