@@ -6,7 +6,7 @@
 ## Your game's name: 
 WORD SCRAMBLE GAME
 
-
+## Game Link: 
 <a href="https://shahstaa.github.io/SEB-2--WORD-SCRAMBLE/">The Game Link </a>
 
 ## Description
