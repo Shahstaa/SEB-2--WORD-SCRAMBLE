@@ -6,8 +6,8 @@
 ## Your game's name: 
 WORD SCRAMBLE GAME
 
-## The Game Link:
-https://shahstaa.github.io/SEB-2--WORD-SCRAMBLE/
+
+<a href="https://shahstaa.github.io/SEB-2--WORD-SCRAMBLE/">The Game Link </a>
 
 ## Description
 Word Scramble Game challenges players to guess a scrambled word within a limited number of attempts. Choose from Easy, Medium, or Hard levels to test the vocabulary skills.
@@ -65,4 +65,6 @@ Listens for level changes, guess submissions, and restarts.
 •	Add more words to levels.
 •	Implement a scoring system.
 •	Introduce sound effects and animations
+
+
 
